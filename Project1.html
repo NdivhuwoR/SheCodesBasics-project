@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All The Greens Smoothie</title>
+  </head>
+  <style>
+    img {
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+    p {
+      text-align: center;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #1a64d6;
+      background: hsl(101, 59%, 26%);
+      color: #fff;
+      font-size: 20px;
+      line-height: 22px;
+      padding: 18px 26px;
+      border-radius: 5px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e2dde4;
+      color: #300219;
+      border: 1px solid #021f05;
+    }
+  </style>
+  <div class="project-one">
+    <body>
+      <h1
+        style="
+          text-align: center;
+          color: #1a2c54;
+          border: 1px solid #fff;
+          border-radius: 10px;
+        "
+      >
+        I Love All The Greens <br />
+        Smoothie!
+      </h1>
+      <h2
+        style="
+          text-align: center;
+          color: #fff;
+          font-size: 30px;
+          /* border: 1px solid #92068b; */
+          border-radius: 10px;
+          padding: 15px;
+          /* margin-left: 500px; */
+          /* margin-right: 500px; */
+        "
+      >
+        Especially KAUAI
+      </h2>
+      <br />
+      <hr style="margin-left: 40px; margin-right: 40px" />
+      <div class="center-container">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/991/original/Kauai-All-The-Greens.jpg?1694641465"
+          alt="All The Greens Smoothie;centered-image"
+          width="400"
+          height="280"
+        />
+        <hr style="margin-left: 40px; margin-right: 40px" />
+        <strong>
+          <p
+            style="
+              font-size: 20px;
+              color: #1a2c54;
+              text-align: center;
+              line-height: 1.5;
+              margin: 0.5em;
+              padding: 0.7em;
+              /* margin-left: 500px; */
+              /* margin-right: 500px; */
+            "
+          >
+            <span style="font-weight: 1000"> Greens and more greens</span>
+            . Spinach made the list not just because it is rich in vitamin C. It
+            is also packed with numerous antioxidants! Similar to broccoli,
+            spinach is healthiest when it is cooked as little as possible so
+            that it retains its nutrients hence the smoothies and juices,
+            people.
+          </p>
+        </strong>
+      </div>
+      <br />
+
+      <a
+        style="text-align: center; font-size: small"
+        href="https://kauai.co.za/super-your-smoothie/"
+      >
+        Learn more on kauai.co.za
+      </a>
+      <style>
+        a:hover {
+          background-color: rgb(182, 210, 211);
+        }
+      </style>
+      <button>Try All The Greens Smoothie</button>
+      <script>
+        function allGreensSmoothie() {
+          let name = prompt("What is your name?");
+          let diet = prompt("Are you Vegan?");
+          diet = diet.toLowerCase();
+          if (diet === "yes") {
+            alert(
+              "Thank you" +
+                " " +
+                name +
+                " " +
+                ",You came to the right place. All Greens Smoothie is Vegan!"
+            );
+          } else {
+            alert(
+              "Thank you" +
+                " " +
+                name +
+                " " +
+                ",Try the All Greens Smoothie it is healthy!"
+            );
+          }
+        }
+
+        let tryButton = document.querySelector("button");
+        tryButton.addEventListener("click", allGreensSmoothie);
+      </script>
+    </body>
+  </div>
+  <style>
+    .project-one {
+      background-color: #d4a6d2;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 350px;
+      margin-right: 350px;
+      border-radius: 20px;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      background-image: linear-gradient(
+        to top,
+        hsl(290, 26%, 68%) 0%,
+        hsl(278, 44%, 52%) 100%
+      );
+      border-radius: 10px;
+      color: #fff;
+      width: 50%;
+      padding: 30px;
+      margin: 30px auto;
+      font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+    }
+  </style>
+</html>
